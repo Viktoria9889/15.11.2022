@@ -1,0 +1,167 @@
+body {
+margin: 5px 5px 5px 5px;
+}
+
+.conteiner {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+body > header {
+	background-color: #1434A7;
+	height: 25px;
+}
+
+.block-dark{
+	background-color: #000000;
+	height: 55px;
+}
+
+.block-yellow{
+	background-color: #E6F408;
+	float: left;
+	width: calc(100%/12*3);
+	height: 551px;
+	margin-top: 15px;
+	
+}
+
+
+.block_row1 {
+	display: flex;
+	max-width: 1050px;
+
+}
+
+.block_column2 {
+
+}
+
+.block-center {
+	width: 1050px;
+	height: 295px;
+	background-color: #B6B7AB;
+
+	margin-top: 15px;
+	margin-left: 35px;
+}
+
+
+
+.text {
+	margin: 0px 0px 0px 32px;
+	font-weight: 800;
+}
+
+
+.block_row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border: 35px solid #FFFFFF;
+	margin: 0 0 0px 0px;
+width: calc(100%/12*8);
+}
+
+.block_column {
+	border: 4px solid #2A90E5;
+}
+
+.block_item {
+	padding: 95px;
+	
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+
+	.block-yellow{
+		background-color: #E6F408;
+		width: calc(100%/12*12);
+		height: 50px;
+		margin-top: 15px;
+		
+	}
+
+
+	.block_row1 {
+		display: flex;
+		margin: 0 0 0px 0px;
+		width: calc(100%/12*12);
+	}
+
+	.block_column2 {
+	}
+
+	.block-center {
+		max-width: 1350px;
+		height: 295px;
+		background-color: #B6B7AB;
+		margin-top: 15px;
+		margin-left: 5px;
+	}
+
+
+	.block_row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		border: 0px solid #FFFFFF;
+		margin: 0 0 0px 0px;
+		width: calc(100%/12*12);
+	}
+
+	.block_column {
+		border: 4px solid #2A90E5;
+	}
+
+	.block_item {
+		padding: 45px;
+	
+	}
+}	
+
+@media screen and (max-width: 768px) and (min-width: 1px) {
+
+	.block-yellow{
+		background-color: #E6F408;
+		width: calc(100%/12*12);
+		height: 50px;
+		margin-top: 15px;
+		
+	}
+
+	.block_row1 {
+		display: none;
+		margin: 0 0 0px 0px;
+		width: calc(100%/12*12);
+	}
+
+	.block_column2 {
+	}
+
+	.block-center {
+		max-width: 1350px;
+		height: 295px;
+		background-color: #B6B7AB;
+		margin-top: 15px;
+		margin-left: 5px;
+	}
+	
+	.block_row {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		border: 0px solid #FFFFFF;
+		margin: 0 0 0px 0px;
+		width: calc(100%/12*12);
+	}
+
+	.block_column {
+		border: 4px solid #2A90E5;
+	}
+
+	.block_item {
+		padding: 55px;
+	
+	}
+}
